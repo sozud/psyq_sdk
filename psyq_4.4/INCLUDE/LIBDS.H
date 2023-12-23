@@ -8,7 +8,7 @@
 #ifndef _LIBDS_H_
 #define _LIBDS_H_
 
-#include <kernel.h>
+#include <KERNEL.H>
 
 /*
  * CD-ROM Mode (used int CdlSetmode)
@@ -157,7 +157,7 @@ typedef struct {
 	u_long dummy1;
 	u_long dummy2;
 	DslLOC loc;
-} StHEADER;		/* CD-ROM STR \‘¢‘Ì*/
+} StHEADER;		/* CD-ROM STR ï¿½\ï¿½ï¿½ï¿½ï¿½*/
 
 #define StFREE		0x0000
 #define StREWIND	0x0001
@@ -181,7 +181,7 @@ typedef struct {
 #define StMOVIE_HEIGHT	0x09
 
 /* 
- * ƒXƒgƒŠ[ƒ~ƒ“ƒOƒ‰ƒCƒuƒ‰ƒŠƒvƒƒgƒ^ƒCƒvéŒ¾
+ * ï¿½Xï¿½gï¿½ï¿½ï¿½[ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½gï¿½^ï¿½Cï¿½vï¿½éŒ¾
  */
 
 #if defined(_LANGUAGE_C_PLUS_PLUS)||defined(__cplusplus)||defined(c_plusplus)
@@ -211,19 +211,19 @@ int StSetChannel( u_long channel );
 
 #endif	/* _LIBCD_H_ */
 
-/* **** ƒVƒXƒeƒ€ƒXƒe[ƒ^ƒX *****/
+/* **** ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Xï¿½eï¿½[ï¿½^ï¿½X *****/
 
 #define DslReady	1
 #define DslBusy		2
 #define DslNoCD		3
 
-/* **** ƒLƒ…[‚É“o˜^‚Å‚«‚éƒRƒ}ƒ“ƒh‚ÌÅ‘å” *****/
+/* **** ï¿½Lï¿½ï¿½ï¿½[ï¿½É“oï¿½^ï¿½Å‚ï¿½ï¿½ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ÌÅ‘å” *****/
 #define DslMaxCOMMANDS	8
 
-/* **** ƒRƒ}ƒ“ƒhÀsŒ‹‰Ê‚ÌÅ‘å” *****/
+/* **** ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ê‚ÌÅ‘å” *****/
 #define DslMaxRESULTS	8
 
-/* **** DS ŠÖ”ƒvƒƒgƒ^ƒCƒv *****/
+/* **** DS ï¿½Öï¿½ï¿½vï¿½ï¿½ï¿½gï¿½^ï¿½Cï¿½v *****/
 
 #if defined(_LANGUAGE_C_PLUS_PLUS)||defined(__cplusplus)||defined(c_plusplus)
 extern "C" {

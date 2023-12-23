@@ -8,12 +8,12 @@
 #ifndef _STDLIB_H
 #define _STDLIB_H
 
-#include <stddef.h>
-#include <abs.h>
-#include <convert.h>
-#include <malloc.h>
-#include <qsort.h>
-#include <rand.h>
+#include <STDDEF.H>
+#include <ABS.H>
+#include <CONVERT.H>
+#include <MALLOC.H>
+#include <QSORT.H>
+#include <RAND.H>
 
 #if defined(_LANGUAGE_C_PLUS_PLUS)||defined(__cplusplus)||defined(c_plusplus)
 extern "C" {
